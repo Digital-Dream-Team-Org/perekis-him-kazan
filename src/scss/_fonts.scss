@@ -1,0 +1,40 @@
+// @font-face {
+//   font-family: 'MyWebFont';
+//   src: url('webfont.eot'); /* IE9 Compat Modes */
+//   src: url('webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+//        url('webfont.woff') format('woff'), /* Modern Browsers */
+//        url('webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+//        url('webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
+// }
+
+@font-face {
+  font-family: "Foros";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Foros"), local("Foros-Regular"),
+    url("../fonts/Foros/Foros-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Foros";
+  font-style: normal;
+  font-weight: 700;
+  src: local("Foros Bold"), local("Foros-Bold"),
+    url("../fonts/Foros/Foros-Bold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Foros";
+  font-style: normal;
+  font-weight: 500;
+  src: local("Foros Medium"), local("Foros-Medium"),
+    url("../fonts/Foros/Foros-Medium.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Foros";
+  font-style: normal;
+  font-weight: 800;
+  src: local("Foros ExtraBold"), local("Foros-ExtraBold"),
+    url("../fonts/Foros/Foros-ExtraBold.woff") format("woff");
+}

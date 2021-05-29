@@ -1,0 +1,138 @@
+@media (max-width: 1200px) {
+  .info-buttons {
+    .dd-button {
+      margin-bottom: 20px;
+    }
+  }
+}
+@media (max-width: 992px) {
+  .section-info {
+    &__inner {
+      padding: 45px 0;
+    }
+
+    &__image {
+      margin-left: 0;
+    }
+  }
+  .info-list {
+    margin-left: 0;
+  }
+  .info-buttons {
+    margin-left: 0;
+
+    .dd-button {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  }
+}
+@media (max-width: 768px) {
+  .t-animate {
+    transform: none !important;
+  }
+
+  .main-logo {
+    width: 120px;
+  }
+  .main-header {
+    &__phone {
+      &-text {
+        font-size: 12px;
+        margin-right: 10px;
+      }
+      &-icon-wrap {
+        display: none;
+      }
+    }
+  }
+  .section-hero {
+    min-height: 0;
+    background-size: 740px;
+    background-position: -135px 120px;
+
+    &__title {
+      margin-top: 40px;
+      font-size: 24px;
+      max-width: 50%;
+    }
+
+    &__schedule {
+      display: none;
+    }
+
+    &__cta {
+      &-wrap {
+        margin-bottom: 55px;
+        margin-top: 40px;
+        margin-left: 0;
+        width: 100%;
+      }
+
+      width: 100%;
+    }
+  }
+
+  .section-contacts {
+    padding-top: 35px;
+    padding-bottom: 150px;
+
+    &__image {
+      position: static;
+      width: 100%;
+      max-width: none;
+      top: 0;
+      margin-top: 50px;
+    }
+  }
+
+  .section-map {
+    &__info {
+      margin-top: -450px;
+    }
+  }
+
+  .info-list {
+    &__text {
+      font-size: 14px;
+    }
+  }
+
+  .modal-dialog {
+    margin-top: 60px;
+  }
+}
+@media (max-width: 576px) {
+  .f-copyright {
+    margin-bottom: 12px;
+  }
+  .f-agreement {
+    margin-bottom: 12px;
+  }
+
+  .section-hero__cta {
+    font-size: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .dd-button {
+    font-size: 12px;
+  }
+}
+@media (max-width: 450px) {
+  .main-header {
+    &__phone {
+      display: none;
+    }
+  }
+}
+@media (max-width: 360px) {
+  .section-hero {
+    background-position: -140px 150px;
+  }
+}
+@media (max-width: 345px) {
+  .section-hero {
+    background-position: -140px 170px;
+  }
+}
